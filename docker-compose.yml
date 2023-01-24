@@ -16,8 +16,6 @@ services:
       - 80:80
     depends_on:
       - php 
-        #volumes:
-        #- ./nginx/src/nginx.conf:/etc/nginx/conf.d/nginx.conf    
     networks:
       - otus_net  
 
